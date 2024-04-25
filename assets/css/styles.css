@@ -67,12 +67,14 @@ aside h3{
     text-transform: uppercase;
 }
 
-aside ul{
-    list-style: none;
+.widget{
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
 }
 
-aside ul li{
+
+aside .widget a{
     padding-bottom: 0.7rem;;
 }
 
@@ -178,6 +180,8 @@ aside ul li{
     padding: 0.7rem;
     border: 2px solid var(--border);
     width: 100%;
+    
+    /* align-items: end; PROBAR MAÑANA Y PROBAR EL GAP TBN*/
 }
 
 .card_btn:hover{
